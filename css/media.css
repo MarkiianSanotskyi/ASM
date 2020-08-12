@@ -1,0 +1,80 @@
+@media only screen and (max-width: 991px) and (min-width: 768px){
+	ul.menu-list li{margin-left:15px;}
+	.header-text h1{padding-right:0px;}
+	.top-header{margin-bottom:200px;}
+	.header-text p{padding-right:0px;}
+	.header-list a.apple{margin-right:15px;}
+	.header-list span,
+	.header-list a.web{margin-right:17px;}
+	#header{min-height:650px;}
+	.copyright{text-align:center;}
+	ul.content-list{text-align:center;}
+	ul.content-list li{width:45%;padding-right:15px !important;padding-left:15px !important;}
+	.position-relative .swiper-pagination{width:95%;}
+	#content-box{background-color:#f7f8ff;background-image:none;}
+	}
+@media only screen and (max-width: 767px) and (min-width: 319px){
+	ul.content-list li{width:100%;padding-right:0px !important;padding-left:0px !important;}
+	.logo a {
+    display: block;
+    width: 292px;
+    height: 60px;
+    background: url(../images/logo.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 292px 60px;
+	margin:0px auto;
+}
+.top-header{padding-top:15px;}
+.menu-top{text-align:center;}
+ul.menu-list li{margin-left:5px;}
+ul.menu-list li.sign a {
+    width: 43px;
+    height: 43px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    display: block;
+    background-image: url(../images/ico-user.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 21px 22px;
+    transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+}
+.top-header{margin-bottom:30px;}
+.header-text h1{font-size:27px;padding-right:0px;    text-align: justify;}
+.header-text p{padding-right:0px;text-align:justify;margin-bottom:20px;}
+
+.header-list a.web {
+    float: left;
+    padding: 16px 19px 16px 65px;
+    background-image: url(../images/ico-web.png);
+    background-position: 18px 48%;
+    background-repeat: no-repeat;
+    background-size: 34px 29px;
+    background-color: #4fd23a;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'helveticaneuecyrmedium';
+    text-transform: uppercase;
+    box-shadow: 2px 2px 7px rgba(0,0,0,0.25);
+    margin-right: 10px;
+}
+.header-list span,
+.header-list a.apple{margin-right:10px;}
+.swiper-slide{width:70%;}
+#footer{text-align:center;}
+.header-list{    margin-bottom: 55px;}
+.position-relative .swiper-pagination {
+    width: 100px;
+       bottom: 20px;
+    margin-left: -50px;
+    left: 50%;
+}
+.wrapper{overflow:hidden;}
+.header-bottom-link-box{bottom:10px;}
+	#content-box{background-color:#f7f8ff;background-image:none;}
+
+	}
